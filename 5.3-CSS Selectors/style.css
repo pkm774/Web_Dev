@@ -1,0 +1,26 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p { /* Tag */
+  color: red;
+}
+
+.note { /* Class */
+  font-size: 20px ;
+}
+
+#id-selector-demo { /* Id */
+  color: green;
+}
+
+li[value="4"] { /* Tag with value */
+  color: blue;
+}
+
+* { /* Universal */
+  text-align: center;
+}
