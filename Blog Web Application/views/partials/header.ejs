@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogger Mania</title>
+  <%# Google Fonts %>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Include your favorite highlight.js stylesheet -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.10.0/build/styles/atom-one-dark.css">
+  <!-- Theme included stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
+  <%# Bootstrap %>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <%# Styles %>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+  <%#------- Header -------%>
+  <div class="container">
+    <header class="py-5">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container-fluid-mod headerItems">
+          <a href="/" class="mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span id="navbarName">Blogging Mania</span>
+          </a>
+          <button class="navbar-toggler navbar-toggler-mod collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarScroll">
+            <ul class="nav nav-pills navbar-nav-scroll navbarScrollButton" style="--bs-scroll-height: 300px;">
+              <li class="nav-item navButton">
+                <a href="/" class="nav-link-mod">Home</a>
+              </li>
+              <li class="nav-item navButton">
+                <a href="/home" class="nav-link-mod">My Blogs</a>
+              </li>
+              <li class="nav-item navButton">
+                <a href="/about" class="nav-link-mod">About</a>
+              </li>
+              <li class="nav-item navButton">
+                <a href="/login" class="nav-link-mod">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  <div class="container border-bottom border-danger">
+  </div>
